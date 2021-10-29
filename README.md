@@ -13,4 +13,4 @@ Design of the timer with focus button pressed
 As a dev it's important to make the programmes we create and maintain accessible to all. I'm still learning how to do this but the first thing I did was choose a sans-serif font because they're easier to read and check the constrast of the colours I'd choosen.
 
 ![Results contrast checker](Images/contrastChecker.png "Results from the contrast checker")
-The above images shows the result from checking the colours on [this contrast checker](https://contrastchecker.com/)
+The above images shows the result from checking the colours on [this contrast checker](https://contrastchecker.com/).

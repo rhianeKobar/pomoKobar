@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="popup.css">
 	<title>Pomokobar</title>
+	<script src="./popup.js" defer></script>
 </head>
+
 <body>
-	<section class="modal-container">
+	<section class="timer-container">
 		<header>
 			<h1>Pomodoro Timer</h1>
-			<p><a href="https://github.com/rhianekobar" class="link">rhianekobar</a></p>
+			<p><a href="https://github.com/rhianekobar">rhianekobar</a></p>
 		</header>
-		<section class="clock"></section>
+		<section class="clock">25:00</section>
 		<section class="button-menu">
-			<button class="btn" id="btnFocus"></button>
-			<button class="btn" id="btnShortBreak"></button>
-			<button class="btn" id="btnLongBreak"></button>
+			<button id="btnFocus">Focus</button>
+			<button id="btnShortBreak">Short break</button>
+			<button id="btnLongBreak">Long break</button>
 		</section>
 	</section>
-	
 </body>
+
 </html>

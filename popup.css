@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #260638;
+}
+
+html {
+  border-radius: 5%;
+  height: 310px;
+  width: 474px;
+  background-color: transparent;
+}
+
+body {
+  height: 310px;
+  width: 474px;
+  padding: 10px;
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 5%;
+  background-color: #CDB4DB;
+  -webkit-box-shadow: inset 4px 4px 8px rgba(69, 10, 102, 0.5);
+          box-shadow: inset 4px 4px 8px rgba(69, 10, 102, 0.5);
+}
+
+.timer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+}
+
+.clock {
+  font-size: 129px;
+  line-height: 155px;
+  color: #260638;
+}
+
+button {
+  width: 114.47px;
+  height: 43px;
+  background: #CDB4DB;
+  -webkit-box-shadow: 0px -6px 12px rgba(163, 117, 189, 0.25);
+          box-shadow: 0px -6px 12px rgba(163, 117, 189, 0.25);
+  border-radius: 15px;
+  border: none;
+}
+/*# sourceMappingURL=popup.css.map */
