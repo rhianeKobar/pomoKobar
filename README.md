@@ -14,3 +14,7 @@ As a dev it's important to make the programmes we create and maintain accessible
 
 ![Results contrast checker](Images/contrastChecker.png "Results from the contrast checker")
 The above images shows the result from checking the colours on [this contrast checker](https://contrastchecker.com/).
+
+## Changes made along the way
+
+- Decided to add a start/stop button. This allows the user to check the timer is correct before starting it.

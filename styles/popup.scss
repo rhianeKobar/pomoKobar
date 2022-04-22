@@ -10,20 +10,12 @@ $altColour: #450A66;
 	box-sizing: border-box;
 	color: $secondaryColour;
 }
-html{
-	border-radius: 5%;
-	height: 310px;
-	width: 474px;
-	background-color: transparent;
-}
 body{
-	height: 310px;
-	width: 474px;
+	width: 250px;
 	padding: 10px;
 	font-family: "Fira Sans", sans-serif;
-	border-radius: 5%;
+	border: 1px solid #5E0E8B;
 	background-color: $primaryColour;
-	box-shadow: inset 4px 4px 8px rgba(69, 10, 102, 0.5);
 }
 .timer-container{
 	display: flex;
@@ -38,15 +30,40 @@ a, a:hover,a:visited{
  text-decoration: none;
 }
 .clock{
-	font-size: 129px;
+	font-size: 75px;
 	line-height: 155px;
 	color: $secondaryColour;
+	div{
+		display: inline;
+	}
 }
-button{
-	width: 114.47px;
+
+.button-menu {
+
+	display: flex;
+	flex-direction: column;
+
+	button{
+		width: 114px;
+		height: 43px;
+		background: #CDB4DB;
+		box-shadow: 3px 3px 6px 2px #A375BD;
+		border-radius: 15px;
+		border: none;
+		margin: 8px;
+	}
+}
+	
+	
+
+#startStopBtn{
+	width: 114px;
 	height: 43px;
-	background: #CDB4DB;
-	box-shadow: 0px -6px 12px rgba(163, 117, 189, 0.25);
+	background: #B9DBB4;
+	box-shadow:  2px 2px 6px 2px #69B15D;
 	border-radius: 15px;
+	letter-spacing: 0.215em;
+	font-size: 1.5em;
 	border: none;
+	margin: 8px;
 }

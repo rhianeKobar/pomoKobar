@@ -7,22 +7,12 @@
   color: #260638;
 }
 
-html {
-  border-radius: 5%;
-  height: 310px;
-  width: 474px;
-  background-color: transparent;
-}
-
 body {
-  height: 310px;
-  width: 474px;
+  width: 250px;
   padding: 10px;
   font-family: "Fira Sans", sans-serif;
-  border-radius: 5%;
+  border: 1px solid #5E0E8B;
   background-color: #CDB4DB;
-  -webkit-box-shadow: inset 4px 4px 8px rgba(69, 10, 102, 0.5);
-          box-shadow: inset 4px 4px 8px rgba(69, 10, 102, 0.5);
 }
 
 .timer-container {
@@ -48,18 +38,46 @@ a, a:hover, a:visited {
 }
 
 .clock {
-  font-size: 129px;
+  font-size: 75px;
   line-height: 155px;
   color: #260638;
 }
 
-button {
-  width: 114.47px;
+.clock div {
+  display: inline;
+}
+
+.button-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.button-menu button {
+  width: 114px;
   height: 43px;
   background: #CDB4DB;
-  -webkit-box-shadow: 0px -6px 12px rgba(163, 117, 189, 0.25);
-          box-shadow: 0px -6px 12px rgba(163, 117, 189, 0.25);
+  -webkit-box-shadow: 3px 3px 6px 2px #A375BD;
+          box-shadow: 3px 3px 6px 2px #A375BD;
   border-radius: 15px;
   border: none;
+  margin: 8px;
+}
+
+#startStopBtn {
+  width: 114px;
+  height: 43px;
+  background: #B9DBB4;
+  -webkit-box-shadow: 2px 2px 6px 2px #69B15D;
+          box-shadow: 2px 2px 6px 2px #69B15D;
+  border-radius: 15px;
+  letter-spacing: 0.215em;
+  font-size: 1.5em;
+  border: none;
+  margin: 8px;
 }
 /*# sourceMappingURL=popup.css.map */
