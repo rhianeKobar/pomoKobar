@@ -28,11 +28,13 @@ class Clock {
 
 	startTimer(){
 		this.timerInterval = setInterval(this.timer(),1000)
-		this.timerInterval
+	}
+
+	stopTimer(){
+		clearInterval(this.timerInterval)
 	}
 
 	timer(){
-		console.log("I ran")
 		if(this.getRemainingTime() == null){
 			let setTime = this.startTime * 60
 			this.setRemainingTime(setTime)
@@ -42,5 +44,17 @@ class Clock {
 		this.minutes = Math.floor(time / 60)
 		this.seconds = time % 60
 		this.setRemainingTime(time)
+	}
+	
+	longBreakTime(){
+		this.setStartTime(15)
+	}
+
+	shortBreakTime(){
+		this.setStartTime(5)
+	}
+	
+	focusTime(){
+		this.setStartTime(25)
 	}
 } 
